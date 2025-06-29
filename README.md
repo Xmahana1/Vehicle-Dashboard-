@@ -17,3 +17,8 @@ Este proyecto consiste en una **aplicación web interactiva** desarrollada con *
   pandas
   plotly
   streamlit
+## 🚀 Demo en vivo
+
+Nuestra aplicación está desplegada en Render.  
+Visítala aquí: [https://proyecto-7-s87p.onrender.com/]
+(https://proyecto-7-s87p.onrender.com/)
