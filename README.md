@@ -1,4 +1,5 @@
 Vehicle Dashboard
+
 Description
 
 This project is an interactive web application built with Streamlit that allows users to explore and visualize a vehicle sales dataset from the United States.
