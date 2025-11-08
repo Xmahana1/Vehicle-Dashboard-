@@ -1,24 +1,34 @@
-# Proyecto_7: Cuadro de Mando de Vehículos
+Vehicle Dashboard
+Description
 
-## Descripción
-Este proyecto consiste en una **aplicación web interactiva** desarrollada con **Streamlit**, que permite explorar y visualizar un conjunto de datos de anuncios de venta de vehículos en Estados Unidos. El objetivo es ofrecer un panel de control sencillo e intuitivo para el análisis inicial de los datos, sin necesidad de programar.
+This project is an interactive web application built with Streamlit that allows users to explore and visualize a vehicle sales dataset from the United States.
+The goal is to provide a simple and intuitive dashboard for initial data analysis without needing to write code.
 
-## Funcionalidad
-- **Vista previa de datos**: muestra las primeras filas del CSV (`vehicles_us.csv`) para familiarizarse con las columnas y el contenido.
-- **Histograma de Kilometraje**: construye un histograma interactivo de la columna `odometer` para analizar la distribución de kilometraje de los vehículos.
-- **Diagrama de dispersión Kilometraje vs Precio**: genera un scatter plot que relaciona el kilometraje (`odometer`) con el precio (`price`).
-- **Selección dinámica**: mediante casillas de verificación (`st.checkbox`), el usuario decide qué gráficos ver en cada momento.
+Functionality
 
-## Requisitos
-- Python 3.11+
-- Conda (o virtualenv)
-- Librerías:
-  ```text
-  pandas
-  plotly
-  streamlit
-## 🚀 Demo en vivo
+Data preview: displays the first rows of the CSV file (vehicles_us.csv) to understand the structure and columns.
 
-Nuestra aplicación está desplegada en Render.  
-Visítala aquí: [https://proyecto-7-s87p.onrender.com/]
-(https://proyecto-7-s87p.onrender.com/)
+Mileage Histogram: interactive histogram of the odometer column to analyze vehicle mileage distribution.
+
+Mileage vs Price Scatter Plot: scatter plot comparing odometer vs price.
+
+Dynamic Selection: users can choose which charts to display using checkboxes (st.checkbox).
+
+Requirements
+
+Python 3.11+
+
+Conda (or virtualenv)
+
+Libraries:
+
+pandas
+
+plotly
+
+streamlit
+
+🚀 Live Demo
+
+The application is deployed on Render.
+Visit it here: https://proyecto-7-s87p.onrender.com/
